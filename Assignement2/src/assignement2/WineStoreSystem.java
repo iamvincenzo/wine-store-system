@@ -11,7 +11,7 @@ import java.util.LinkedList;
  * The class {@code WineStoreSystem} in used to contain the main method to 
  * execute the simulation and it contains system data and methods 
  * to manage system data.
- * @author Vincenzo Fraello (299647) - Lorenzo Di Palma (299636).
+ * @author Vincenzo Fraello
  * @version 1.0
  */
 
@@ -128,7 +128,7 @@ public class WineStoreSystem {
 					}
 					
 					else wineFound = false; // This instruction is necessary because if the first user respects the controls then the flag is set to true. When the next user does not respect the controls, the variable would still be true and therefore the index would not be increased and the next user would not be passed
-					// Quetsa istruzione è necessaria poichè se il primo user rispetta i controlli allora il flag viene settato a true. Quando l'utente successivo non rispetta i controlli la variabile risulterebbe comunque a true e quindi non verrebbe incrementato l'indice e non si passerebbe all'eventuale user successivo 
+					// Quetsa istruzione Ã¨ necessaria poichÃ¨ se il primo user rispetta i controlli allora il flag viene settato a true. Quando l'utente successivo non rispetta i controlli la variabile risulterebbe comunque a true e quindi non verrebbe incrementato l'indice e non si passerebbe all'eventuale user successivo 
 				}
 				
 				if(!wineFound) { // these instruction are only executed the previous user is not removed from the list
@@ -223,7 +223,7 @@ public class WineStoreSystem {
 		System.out.println("\tWine UX (\"Tavernello\", \"Famiglia Bianchi\", \"2020\", \"Table wine produced by the Caviro company from Romagna, headquartered in Faenza.\", [ Mascalese Trebbiano Sangiovese ], 8) -> UX\n");
 		System.out.println("\tWine UY (\"Merlot\", \"Famiglia Verdi\", \"1970\", \"Very early wine, a characteristic that allows it to adapt easily to the climates of the whole wine world.\", [ Mascalese Trebbiano Sangiovese ], 2) -> UY\n");
 		
-		System.out.println("\n2) un utente UX si registra e fa l’acquisto di alcune bottiglie di un certo vino UX\n");
+		System.out.println("\n2) un utente UX si registra e fa lÂ’acquisto di alcune bottiglie di un certo vino UX\n");
 		
 			// TEST 2
 		
@@ -233,7 +233,7 @@ public class WineStoreSystem {
 		
 			// TEST 2
 		
-		System.out.println("\n3) un utente UY si registra e fa l’acquisto di tutte le bottiglie di un certo vino UY\n");
+		System.out.println("\n3) un utente UY si registra e fa lÂ’acquisto di tutte le bottiglie di un certo vino UY\n");
 		
 		usr2.signUp("Lorenzo", "Di Palma", "lorenzo.dipalma@gmail.com", "299636", "Piazzale S.C 6"); // UY
 		
@@ -241,8 +241,8 @@ public class WineStoreSystem {
 		
 			// TEST 3
 		
-		System.out.println("\n4) un utente UZ si registra e vuole fare l’acquisto di alcune bottiglie del vino UY "
-				+ "non più disponibile e chiede di ricevere una notifica quando il vino UY sarà di nuovo disponibile\n");
+		System.out.println("\n4) un utente UZ si registra e vuole fare lÂ’acquisto di alcune bottiglie del vino UY "
+				+ "non piÃ¹ disponibile e chiede di ricevere una notifica quando il vino UY sarÃ  di nuovo disponibile\n");
 		
 		
 		usr3.signUp("Mario", "Rossi", "mario.rossi@gmail.com", "12345", "Via P.G.C 28"); // UZ
@@ -252,8 +252,8 @@ public class WineStoreSystem {
 		
 			// TEST 4
 		
-		System.out.println("\n5) l’impiegato aggiunge un certo numero di bottiglie del vino UY e il sistema notifica "
-				+ "l’utente UZ della nuova disponibilità del vino\n");
+		System.out.println("\n5) lÂ’impiegato aggiunge un certo numero di bottiglie del vino UY e il sistema notifica "
+				+ "lÂ’utente UZ della nuova disponibilitÃ  del vino\n");
 		
 		
 		//emp.buyNewBottles(ws);
