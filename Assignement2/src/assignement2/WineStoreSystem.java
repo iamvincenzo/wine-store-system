@@ -262,12 +262,6 @@ public class WineStoreSystem {
 		
 		// N.B: svuotiamo il file contenente gli utenti registrati per evitare di scrivere gli stessi utenti ogni 
 			// volta che la simulazione termina
-		
-		for(var h : ws.wineList) {
-			System.out.println();
-			System.out.println(h.getName() + ", " + h.getNumBottles());
-		}
-		
 		ws.clearFile();		
 	}
 }
