@@ -186,7 +186,7 @@ public class WineStoreSystem {
 		System.out.println("|                   	    SIMULATION                         |");
 		System.out.println("----------------------------------------------------------------\n");
 		
-		System.out.println("Authors: Vincenzo Fraello (299647) - Lorenzo Di Palma (299636)\n");
+		System.out.println("Author: Vincenzo Fraello (299647)\n");
 		
 		WineStoreSystem ws = new WineStoreSystem("LorVincFraLma");
 		
